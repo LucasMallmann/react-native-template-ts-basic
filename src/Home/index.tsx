@@ -2,7 +2,7 @@ import React from 'react';
 
 import { Container, Greeting } from './styles';
 
-const Home = () => {
+const Home: React.FC = () => {
   return (
     <Container>
       <Greeting>Hello World</Greeting>
