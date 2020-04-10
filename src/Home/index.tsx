@@ -1,11 +1,14 @@
 import React from 'react';
 
-import { Container, Greeting } from './styles';
+import { Container, Greeting, Description } from './styles';
 
 const Home: React.FC = () => {
   return (
     <Container>
-      <Greeting>Hello World</Greeting>
+      <Greeting>Welcome to this custom Typescript Template</Greeting>
+      <Description>
+        Eslint, Styled-Components, Styled ThemeProvider, Root Import Resolver
+      </Description>
     </Container>
   );
 };

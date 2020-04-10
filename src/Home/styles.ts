@@ -1,13 +1,10 @@
 import styled from 'styled-components/native';
 
-/**
- * This component uses your custom theme to setup the background
- */
 export const Container = styled.View`
   flex: 1;
   background-color: ${(props) => props.theme.colors.primary};
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 `;
 
 export const Greeting = styled.Text`
@@ -15,4 +12,11 @@ export const Greeting = styled.Text`
   font-weight: bold;
   font-size: 24px;
   text-align: center;
+`;
+
+export const Description = styled.Text`
+  font-size: 20px;
+  color: ${(props) => props.theme.colors.text};
+  text-align: center;
+  margin-top: 20px;
 `;
